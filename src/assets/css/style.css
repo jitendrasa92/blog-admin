@@ -1,0 +1,122 @@
+/* MODAL */
+
+.header-fixed .app-header{
+    z-index: 102 !important;
+    }
+    .styles_modal__gNwvD{
+      width:100%;
+      padding: 0px;
+    }
+    
+    .marginmessage {
+      margin-top: -15px;
+      margin-bottom:0;
+    }
+    .borderless{
+      border: 0px;
+    }
+    .borderless tr td,
+    .borderless tr th{
+      border-right: 0px;
+      border-left: 0px;
+      padding: 3px;
+    }
+    .loader-outer{
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      width: 100%;
+      min-height: 100vh;
+      background: #0000007a;
+      z-index: 100;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      bottom: 0px;
+    }
+    
+    span.file-name {
+      position: relative;
+      top: -28px;
+      background: #fff;
+      left: 104px;
+      width: calc(100% - 120px);
+      white-space: nowrap;
+      display: block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+
+  label.float-right {
+    position: relative;
+    top: 10px;
+}
+.DraftEditor-root{
+  padding: 10px;
+  border: 1px solid #e4e7ea;
+  margin-top: 10px;
+
+}
+.public-DraftEditorPlaceholder-root{
+  top:25px;
+}
+.public-DraftEditor-content[contenteditable=true]{
+  height: 380px;
+}
+.contentcss div {
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+}
+.contentcss {
+  position: relative;
+}
+.contentcss span.dotcss {
+  position: absolute;
+  right: -4px;
+  top: 20px;
+}
+
+/****css by Designer******/
+.react-datepicker-wrapper{
+  width:100%;
+}
+.main .container-fluid{
+  padding: 0px 15px;
+}
+@media(max-width: 1199.98px){
+  .tblWidth{
+    min-width: 800px;
+    width: 800px;
+  }
+  .width-100{
+    width: 100px;
+  }
+  .width-150{
+    width: 150px;
+  }
+	.app-header .navbar-brand {
+	    top: 0;
+	    left: 50px;
+	    margin-left: 0px;
+	    width: 40px;
+	}
+	.app-header .navbar-brand img{
+		border-radius: 5px;
+	}
+	.app-header .navbar-toggler{
+		outline: none;
+	}
+}
+@media(max-width: 575.98px){
+  .headerEmail a {
+    max-width: 120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+}
