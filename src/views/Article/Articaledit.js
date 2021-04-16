@@ -67,13 +67,10 @@ const Editmanager = (props) => {
 
     }
 
-
     useEffect(() => {
         getCategoryData();
         updateData();
     }, []);
-
-
 
     const updateData = () => {
         if (props.location.state != undefined) {
